@@ -65,6 +65,9 @@ if has("gui_running")
 else
 	" my terminals all have black backgrounds
 	"set background=dark
+	
+	" OK, NOW they do.
+	colorscheme torte 
 endif
 
 " Don't use Ex mode, use Q for formatting
