@@ -39,6 +39,8 @@ set gdefault		" assume the /g flag on :s substitutions
 set showcmd		" Show current vim command in status bar
 set showfulltag		" Get function usage help automatically
 
+set title		" Set the xterm title string when I tell you to
+
 " case insensitive searches unless something is capitalized
 set ignorecase smartcase
 
