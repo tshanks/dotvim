@@ -50,7 +50,7 @@ if has("cscope")
 		cs add ./../cscope.out
 	elseif filereadable("cscope.out")
 		cs add cscope.out
-	if filereadable("../cscope.out")
+	elseif filereadable("../cscope.out")
 		cs add ../cscope.out
 	elseif filereadable("~/.findcscopehere/cscope.out")
 		cs add ~/.findctagshere/cscope.out
