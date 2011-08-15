@@ -1,4 +1,5 @@
-" Thomas Shanks vimrc file (tshanks@gatech.edu) from git (URL HERE)
+" Thomas Shanks (tshanks@gatech.edu) vimrc file
+" Available at github.com/tshanks/dotvim.git
 " All rights reserved.  Not for redistribution.  Eat your vegetables.
 
 " This is done automatically because it found a vimrc

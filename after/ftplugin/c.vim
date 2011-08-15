@@ -1,4 +1,5 @@
-" Thomas Shanks c.vim config (tshanks@gatech.edu) from git (URL HERE)
+" Thomas Shanks (tshanks@gatech.edu) c.vim config
+" Available at github.com/tshanks/dotvim.git
 " All rights reserved.  Not for redistribution.  Eat your vegetables.
 
 "setlocal formatoptions=croql "already the default
