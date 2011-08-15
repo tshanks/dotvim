@@ -1,3 +1,6 @@
+" Thomas Shanks c.vim config (tshanks@gatech.edu) from git (URL HERE)
+" All rights reserved.  Not for redistribution.  Eat your vegetables.
+
 "setlocal formatoptions=croql "already the default
 setlocal cindent
 setlocal nowrap
@@ -19,6 +22,9 @@ setlocal foldminlines=5
 "syn region Comment start="/\*" end="\*/" fold
 
 setlocal tw=79
+
+" Some (especially comments) from 
+" http://www.mattrope.com/computers/conf/vimrc.html
 
 " Programming Keys:
 "   F9  = Make
