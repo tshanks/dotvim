@@ -5,9 +5,6 @@
 setlocal cindent
 setlocal nowrap
 
-map <C-Return> :w\|:!gcc %<CR>
-"map <C-Return> :w\|:!g++ %<CR>
-
 "setlocal comments=sr:/*,mb:*,el:*/,://
 
 " Automatic "folding" in C code.  This is cool.
