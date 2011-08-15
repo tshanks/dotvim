@@ -1,4 +1,4 @@
-" Thomas Shanks vimrc file (tshanks@cc.gatech.edu) 2:0.1
+" Thomas Shanks vimrc file (tshanks@gatech.edu) from git (URL HERE)
 " All rights reserved.  Not for redistribution.  Eat your vegetables.
 
 set nocompatible	" Use Vim defaults (much better!)
