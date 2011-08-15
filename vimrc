@@ -34,7 +34,6 @@ set viminfo='20,\"50	" read/write a .viminfo file, don't store more
 			" than 50 lines of registers
 set ruler		" show the cursor position all the time
 set nowrap		" let it run off the screen
-set ls=1		" puts seperate filename/linenum at bottom
 set showmode		" -- INSERT --
 set nosol		" try to stay in the same column when jumping
 set gdefault		" assume the /g flag on :s substitutions
@@ -46,6 +45,12 @@ set showfulltag		" Get function usage help automatically
 set ignorecase smartcase
 
 set sidescroll=4
+
+if !has("gui_running") && &lines > 47
+	set ls=2		" always puts seperate filename line at bottom
+else
+	set ls=1		" only show filename lines when > 1 window
+endif
 
 "behave xterm
 
