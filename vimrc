@@ -30,8 +30,6 @@ set incsearch		" incremental search
 set showmatch		" see matching {} ()
 set backspace=2		" allow backspacing over everything in insert mode
 set autoindent		" always set autoindenting on
-set viminfo='20,\"50	" read/write a .viminfo file, don't store more
-			" than 50 lines of registers
 set ruler		" show the cursor position all the time
 set nowrap		" let it run off the screen
 set showmode		" -- INSERT --
