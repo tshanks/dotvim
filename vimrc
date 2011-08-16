@@ -100,6 +100,14 @@ if has("autocmd")
 		auto BufEnter * let &titlestring="VIM on ". hostname() .
 						\ ":" . expand("%:p")
 	endif
+
+	" From dankamongmen@acm.org:
+	" If compiled without X11 support, we can't reset the title
+	" properly, so provide a default for title resetting.
+	if !has("X11")
+		let &titleold=hostname() . ":" . expand("%:p:h")
+	endif
+
 endif
 
 ""if &term=="xterm"
