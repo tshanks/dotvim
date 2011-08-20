@@ -11,15 +11,13 @@ ln -s .vim/gvimrc ~/.gvimrc
 Switch to the `~/.vim` directory, and fetch submodules:
 
 cd ~/.vim
-git submodule init
-git submodule update
+git submodule update --init
 
 
 To add a module, first run (in ~/.vim):
 
 git submodule add git://github.com/(USER)/vim-(MODULE).git bundle/(MODULE)
-git submodule init
-git submodule update
+git submodule update --init
 
 Then edit .gitmodules and add the following to the end of the block
 describing your new submodule:
