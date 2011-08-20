@@ -12,8 +12,14 @@ endif
 
 set backup		" keep a backup file
 
-" Put all backups in the same place
-set backupdir=~/vimbackups
+" Put all backups in the same place-
+" HN360748 Tritis: If you end your backdir setting with a double trailing
+" slash, then vim will automatically use the full path to the file s. t.
+" editing /etc/inittab and /mnt/flash/etc/inttab won't clobber each other.
+set backupdir=~/vimbackups//
+
+" Same for swaps
+"set directory=~/vimswap//
 
 " Version 6.0-specific stuff -- Not that the rest of this file < 6 compatible!
 if version >= 600
