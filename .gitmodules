@@ -2,4 +2,3 @@
 	path = bundle/pathogen
 	url = git://github.com/tpope/vim-pathogen.git
 	ignore = untracked
-	update = merge
