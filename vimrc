@@ -52,9 +52,6 @@ set showfulltag		" Get function usage help automatically
 
 set title		" Set the xterm title string when I tell you to
 
-" case insensitive searches unless something is capitalized
-set ignorecase smartcase
-
 set sidescroll=4
 
 if len(&t_vb) > 0
@@ -79,16 +76,8 @@ set suffixes+=.swp
 set suffixes+=.o
 set suffixes+=.class
 
-if has("gui_running")
-	" gvim windows will use this
-	colorscheme murphy
-else
-	" my terminals all have black backgrounds
-	"set background=dark
-	
-	" OK, NOW they do.
-	colorscheme torte 
-endif
+" Color scheme
+colorscheme torte
 
 " Don't use Ex mode, use Q for formatting
 map Q gq
